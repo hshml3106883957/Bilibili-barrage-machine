@@ -11,6 +11,29 @@
 - 🖥️ **图形界面**：简单易用的配置窗口
 - 🌈 **彩色消息**：支持Minecraft颜色代码格式化
 
+## 常见问题
+- ❓ **如何获取B站Cookie？**：
+-浏览器登录B站后，通过开发者工具(F12)获取：
+-SESSDATA 和 bili_jct 来自Cookies
+
+- ⚠️ **RCON连接失败？**：
+-确认服务器已开启RCON
+-检查防火墙是否放行RCON端口
+### server.properties
+```bash
+enable-rcon=true
+rcon.port=your_port
+rcon.password=your_password
+```
+
+##贡献指南
+- 欢迎提交Issue或PR！建议改进方向：
+
+- 添加Twitch/抖音直播支持
+
+- 实现Web控制面板
+
+- 开发消息队列系统
 ## 快速开始
 
 ### 环境要求
